@@ -29,7 +29,8 @@
     "deploy": "firebase deploy",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
-    "format": "prettier --write \"**/*.+(ts|tsx|js|json|css)\""
+    "format": "prettier --write \"**/*.+(ts|tsx|js|json|css)\"",
+    "cypress": "cypress open"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -80,6 +81,8 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/styled-components": "^5.1.23",
+    "cypress": "^13.6.4",
+    "cypress-plugin-xhr-toggle": "^1.0.0",
     "firebase-tools": "^10.2.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.10",
